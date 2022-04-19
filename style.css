@@ -6,7 +6,30 @@ global
 navegaton
 
 /*HEADING*/
+.1️⃣ {
+  color: gold;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Staatliches", cursive;
+  font-size: 120px;
+  margin-bottom: -60px;
+}
 /*SUBHEADING*/
-/*BODY*/
+.2️⃣ {
+  color: gold;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Staatliches", cursive;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+/*BODY*/ 
+body {
+  background-image: linear-gradient(
+  color: gold;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
 /*GALLERY*/
 /*LINKS*/
