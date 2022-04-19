@@ -6,7 +6,7 @@ global
 navegaton
 
 /*HEADING*/
-.1️⃣ {
+.🍏 {
   color: gold;
   display: flex;
   justify-content: space-around;
@@ -32,12 +32,19 @@ body {
 }
 /*GALLERY*/
 /*ICONS*/
-#menu {
+.{
   display: flex;
-  justify-content: center;
-}
-#menu img {
-  width: 100% !important;
-  height: auto !important;
+  justify-content: space-around;
+  width: 20%;
+  height: 20%;
+  background-size: cover;
+  left: 40%;
+  position: relative;
+  top: 100px;
+  margin-bottom: 125px;
 }
 /*LINKS*/
+img {
+  width: 100%;
+  max-width: 500px;
+}
