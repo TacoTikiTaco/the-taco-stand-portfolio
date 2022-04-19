@@ -23,13 +23,21 @@ navegaton
   font-size: 40px;
   margin-bottom: 40px;
 }
-/*BODY*/ 
+/*BODY*/
 body {
-  background-image: linear-gradient(
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
   text-align: center;
 }
 /*GALLERY*/
+/*ICONS*/
+#menu {
+  display: flex;
+  justify-content: center;
+}
+#menu img {
+  width: 100% !important;
+  height: auto !important;
+}
 /*LINKS*/
