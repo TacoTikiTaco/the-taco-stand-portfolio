@@ -40,10 +40,9 @@ p.copyright {
 color:#996600;
 }
 .🍐 {
-  display: flex;
   justify-content: space-around;
-  width: 20%;
-  height: 20%;
+  max-width:40%;
+  width: auto;
   background-size: cover;
   left: 40%;
   position: relative;
