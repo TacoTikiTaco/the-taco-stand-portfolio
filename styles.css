@@ -29,12 +29,25 @@ body {
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
 }
+p.copyright {
+  display: flex;
+  justify-content: space-around;
+  font-style: italic;
+}
 /*GALLERY*/
 /*MENU*/
 .GeneratedMarquee {
 color:#996600;
 }
 .🍐 {
+  display: flex;
+  justify-content: space-around;
   width: 20%;
+  height: 20%;
+  background-size: cover;
+  left: 40%;
+  position: relative;
+  top: 100px;
+  margin-bottom: 125px;
 }
 /*LINKS*/
