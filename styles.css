@@ -28,10 +28,9 @@ body {
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
-  background-image: url('https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%5BA%5D.png?v=1651010076815'),url('https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB%5D.png?v=1651008848135');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
+  background-image: url('https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410');
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 p.copyright {
   display: flex;
