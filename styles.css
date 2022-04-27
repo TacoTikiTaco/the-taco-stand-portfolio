@@ -17,10 +17,8 @@
   display: flex;
   justify-content: space-around;
   max-width:40%;
-
   background-size: cover;
-  margin-bottom: -60px;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 /*SUBHEADING*/
 .🍎 {
@@ -53,11 +51,9 @@ p.copyright {
 color:#996600;
 }
 .🍐 {
-  justify-content: space-around;
-  max-width:10%;
-  width: auto;
+  justify-content: center;
+  max-width:150px;
   background-size: cover;
-  left: 40%;
   position: relative;
   top: 100px;
   margin-bottom: 125px;
@@ -70,6 +66,12 @@ color:#996600;
    text-align: center;
 }
 /*LINKS*/
+nav{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
 media queires
 menu page
 home page
