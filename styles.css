@@ -2,10 +2,12 @@
 .🍏 {
   color: gold;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   font-family: "Staatliches", cursive;
   font-size: 120px;
   margin-bottom: -60px;
+  width: auto;
+  font-size: 9vw;
 }
 .🌮 {
   transform: translateY(-10%);
