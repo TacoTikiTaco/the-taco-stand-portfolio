@@ -11,8 +11,13 @@
   transform: translateY(-10%);
   animation: floater 3s infinite;
   transition: ease 1s;
-  width: 10%;
-  height: auto;
+  width: auto;
+  justify-content: space-around;
+  max-width:40%;
+  min-width:400px;
+  background-size: cover;
+  margin-bottom: -60px;
+  margin-top: 30px;
 }
 /*SUBHEADING*/
 .🍎 {
@@ -53,9 +58,3 @@ color:#996600;
   margin-bottom: 125px;
 }
 /*LINKS*/
-media queires
-menu page
-home page
-about page
-global
-navegaton
