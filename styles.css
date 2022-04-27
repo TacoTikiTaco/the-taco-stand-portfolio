@@ -14,6 +14,7 @@
   animation: floater 3s infinite;
   transition: ease 1s;
   width: auto;
+  display: flex;
   justify-content: space-around;
   max-width:40%;
   min-width:400px;
@@ -46,6 +47,7 @@ p.copyright {
 }
 /*GALLERY*/
 /*MENU*/
+/*FOOTER*/
 .GeneratedMarquee {
 color:#996600;
 }
@@ -58,5 +60,14 @@ color:#996600;
   position: relative;
   top: 100px;
   margin-bottom: 125px;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
 }
 /*LINKS*/
