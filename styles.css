@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-around;
   max-width:40%;
-  min-width:400px;
+
   background-size: cover;
   margin-bottom: -60px;
   margin-top: 30px;
@@ -42,6 +42,7 @@ body {
 }
 p.copyright {
   display: flex;
+  font-size: 2.5vw;
   justify-content: space-around;
   font-style: italic;
 }
@@ -61,13 +62,11 @@ color:#996600;
   top: 100px;
   margin-bottom: 125px;
 }
-.footer {
+.🍗 {
    position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: red;
-   color: white;
    text-align: center;
 }
 /*LINKS*/
