@@ -1,3 +1,22 @@
+/*EFFECTS*/
+.shake:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
 /*HEADING*/
 .🍏 {
   color: gold;
@@ -70,38 +89,6 @@ nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
-/*EFFECTS*/
-.shake a:hover {
-  animation: shake 75ms infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes shake {
-  0% {
-    transform: rotate(0.5deg);
-  }
-  50% {
-    transform: rotate(-0.5deg);
-  }
-  100% {
-    transform: rotate(0.5deg);
-  }
-}
-a{
-  width: 500px;
-  margin: auto;
-  background: #fff;
-  padding: 20px;
-  overflow: hidden;
-  box-shadow: 0 0 25px #000;
-  margin-top: 30px;
-  border: 1px solid #444;  
-  text-align: center;
-  display: block;
-  color: #444;
-  text-decoration: none;
-  font-weight: bold;
 }
 /*media queires
 menu page
