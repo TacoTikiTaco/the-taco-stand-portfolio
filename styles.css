@@ -16,7 +16,7 @@
   width: auto;
   display: flex;
   justify-content: space-around;
-  max-width:40%;
+  max-width: 40%;
   background-size: cover;
   margin-top: 15px;
 }
@@ -34,7 +34,7 @@ body {
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
-  background-image: url('https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410');
+  background-image: url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
   background-repeat: repeat;
   background-attachment: fixed;
 }
@@ -48,33 +48,64 @@ p.copyright {
 /*MENU*/
 /*FOOTER*/
 .GeneratedMarquee {
-color:#996600;
+  color: #996600;
 }
 .🍐 {
   justify-content: center;
-  max-width:150px;
+  max-width: 150px;
   background-size: cover;
   position: relative;
   top: 100px;
   margin-bottom: 125px;
 }
 .🍗 {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 /*LINKS*/
-nav{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*EFFECTS*/
+.shake a:hover {
+  animation: shake 75ms infinite;
+  animation-timing-function: linear;
 }
 
-media queires
+@keyframes shake {
+  0% {
+    transform: rotate(0.5deg);
+  }
+  50% {
+    transform: rotate(-0.5deg);
+  }
+  100% {
+    transform: rotate(0.5deg);
+  }
+}
+a{
+  width: 500px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 25px #000;
+  margin-top: 30px;
+  border: 1px solid #444;  
+  text-align: center;
+  display: block;
+  color: #444;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*media queires
 menu page
 home page
 about page
 global
-navegaton
+navegaton*/
