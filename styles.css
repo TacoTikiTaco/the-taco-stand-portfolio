@@ -59,7 +59,7 @@ body {
 }
 p.copyright {
   display: flex;
-  font-size: 2.5vw;
+  font-size: 1vw;
   justify-content: space-around;
   font-style: italic;
 }
