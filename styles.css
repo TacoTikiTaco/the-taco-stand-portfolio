@@ -1,5 +1,5 @@
 /*EFFECTS*/
-.shake:hover {
+.🌀:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
 }
@@ -40,18 +40,15 @@
   }
 }
 
-.main {
+.🌑 {
   z-index: 2;
 }
-.glow {
+.🌕 {
   z-index: 1;
-  transform: scale(1.0) translate(-100%, 0%);
-  -webkit-transform: scale(1.0) translate(-100%, 0%);
-  filter: brightness(0) invert(1) blur(8px);
-  -webkit-filter: brightness(0) invert(1) blur(8px);
   opacity: 0;
+  
 }
-.main:hover ~ .glow {
+.🌑:hover ~ .🌕 {
   opacity: 1;
 }
 
@@ -83,8 +80,8 @@
   display: flex;
   justify-content: space-around;
   font-family: "Staatliches", cursive;
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-size: 3.5vw;
+  margin-bottom: -40px;
 }
 /*BODY*/
 body {
@@ -114,6 +111,7 @@ p.copyright {
   position: relative;
   top: 100px;
   margin-bottom: 125px;
+  margin: 0px 40px;
 }
 .🍗 {
   position: fixed;
@@ -121,7 +119,7 @@ p.copyright {
   bottom: 0;
   width: 100%;
   text-align: center;
-  margin: 0px 30px;
+  
 }
 /*LINKS*/
 nav {
