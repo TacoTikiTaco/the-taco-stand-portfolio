@@ -39,6 +39,22 @@
     transform: translate(1px, -2px) rotate(-1deg);
   }
 }
+
+img.main {
+  z-index: 2;
+}
+img.glow {
+  z-index: 1;
+  transform: scale(1.0) translate(-100%, 0%);
+  -webkit-transform: scale(1.0) translate(-100%, 0%);
+  filter: brightness(0) invert(1) blur(8px);
+  -webkit-filter: brightness(0) invert(1) blur(8px);
+  opacity: 0;
+}
+img.main:hover ~ img.glow {
+  opacity: 1;
+}
+
 /*HEADING*/
 .🍏 {
   color: gold;
@@ -98,7 +114,6 @@ p.copyright {
   position: relative;
   top: 100px;
   margin-bottom: 125px;
-  margin: 0px 30px;
 }
 .🍗 {
   position: fixed;
