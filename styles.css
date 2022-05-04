@@ -79,9 +79,9 @@
   color: gold;
   display: flex;
   justify-content: space-around;
-  font-family: "Staatliches", cursive;
+  font-family: "Archivo Narrow", sans-serif;
   font-size: 3.5vw;
-  margin-bottom: -40px;
+  margin: 60px 0px 0px;
 }
 /*BODY*/
 body {
@@ -109,6 +109,14 @@ p.copyright {
   top: 100px;
   margin-bottom: 125px;
   margin: 0px 20px 20px;
+}
+.🔍 {
+  color: gold;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 2vw;
+  margin: 00px 0px 0px;
 }
 /*FOOTER*/
 .GeneratedMarquee {
