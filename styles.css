@@ -46,7 +46,7 @@ img.main {
 img.glow {
   z-index: 1;
   transform: scale(1.0) translate(-100%, 0%);
-  -webkit-transform: scale(1.0) translate(0%, 0%);
+  -webkit-transform: scale(1.0) translate(-100%, 0%);
   filter: brightness(0) invert(1) blur(8px);
   -webkit-filter: brightness(0) invert(1) blur(8px);
   opacity: 0;
