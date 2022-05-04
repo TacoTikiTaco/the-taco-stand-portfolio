@@ -40,10 +40,10 @@
   }
 }
 
-img.main {
+.main {
   z-index: 2;
 }
-img.glow {
+.glow {
   z-index: 1;
   transform: scale(1.0) translate(-100%, 0%);
   -webkit-transform: scale(1.0) translate(-100%, 0%);
@@ -51,7 +51,7 @@ img.glow {
   -webkit-filter: brightness(0) invert(1) blur(8px);
   opacity: 0;
 }
-img.main:hover ~ img.glow {
+.main:hover ~ .glow {
   opacity: 1;
 }
 
@@ -121,6 +121,7 @@ p.copyright {
   bottom: 0;
   width: 100%;
   text-align: center;
+  margin: 0px 30px;
 }
 /*LINKS*/
 nav {
