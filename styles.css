@@ -101,13 +101,14 @@ p.copyright {
 /*GALLERY*/
 /*MENU*/
 .🍐 {
+  width:30vw;
   justify-content: center;
   max-width: 150px;
   background-size: cover;
   position: relative;
   top: 100px;
   margin-bottom: 125px;
-  margin: 0px 40px;
+  margin: 0px 20px 20px;
 }
 /*FOOTER*/
 .GeneratedMarquee {
