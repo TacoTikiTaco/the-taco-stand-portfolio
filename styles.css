@@ -46,7 +46,7 @@
 .🌕 {
   z-index: 1;
   opacity: 0;
-  
+  transform: translate(0px, 65px);
 }
 .🌑:hover ~ .🌕 {
   opacity: 1;
@@ -100,10 +100,6 @@ p.copyright {
 }
 /*GALLERY*/
 /*MENU*/
-/*FOOTER*/
-.GeneratedMarquee {
-  color: #996600;
-}
 .🍐 {
   justify-content: center;
   max-width: 150px;
@@ -112,6 +108,10 @@ p.copyright {
   top: 100px;
   margin-bottom: 125px;
   margin: 0px 40px;
+}
+/*FOOTER*/
+.GeneratedMarquee {
+  color: #996600;
 }
 .🍗 {
   position: fixed;
