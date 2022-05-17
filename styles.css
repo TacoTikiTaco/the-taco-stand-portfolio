@@ -75,6 +75,18 @@
   margin-top: 15px;
   z-index: 2;
 }
+.🌯 {
+  transform: translateY(280%) translateX(5%);
+  animation: floater 3s infinite;
+  transition: ease 1s;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
+  max-width: 40%;
+  background-size: cover;
+  margin-top: 15px;
+  z-index: 1;
+}
 /*SUBHEADING*/
 .🍎 {
   color: gold;
