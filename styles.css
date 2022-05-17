@@ -88,9 +88,10 @@ body {
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
-  background-image: url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
-  background-repeat: repeat;
-  background-attachment: fixed;
+  background-image: url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%5BA%5D.png?v=1651010076815),url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
+  background-repeat: no-repeat,repeat;
+  background-size: contain, contain;
+  background-attachment: cover;
 }
 p.copyright {
   display: flex;
@@ -101,7 +102,7 @@ p.copyright {
 /*GALLERY*/
 /*MENU*/
 .🍐 {
-  width:30vw;
+  width: 30vw;
   justify-content: center;
   max-width: 150px;
   background-size: cover;
@@ -128,7 +129,6 @@ p.copyright {
   bottom: 0;
   width: 100%;
   text-align: center;
-  
 }
 /*LINKS*/
 nav {
