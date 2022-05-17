@@ -64,7 +64,7 @@
   font-size: 9vw;
 }
 .🌮 {
-  transform: translateY(-10%);
+  transform: translateY(10%) translateX(5%);
   animation: floater 3s infinite;
   transition: ease 1s;
   width: auto;
