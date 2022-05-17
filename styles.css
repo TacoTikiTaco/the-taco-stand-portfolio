@@ -59,9 +59,10 @@
   justify-content: center;
   font-family: "Staatliches", cursive;
   font-size: 120px;
-  margin-bottom: -60px;
   width: auto;
   font-size: 9vw;
+  margin-bottom: 1.4rem;
+  vertical-align: bottom;
 }
 .🌮 {
 
@@ -72,6 +73,7 @@
   max-width: 40%;
 
 }
+header{  background-image:url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner%203.png?v=1652752525573),}
 /*SUBHEADING*/
 .🍎 {
   color: gold;
@@ -86,8 +88,8 @@ body {
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
-  background-image:url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner%203.png?v=1652752525573),url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
-  background-repeat:no-repeat,repeat;
+  background-image:url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
+  background-repeat:repeat;
   background-attachment: cover;
   background-size: contain, 420px
 }
