@@ -22,10 +22,11 @@
   <body>
     <header>
       <div>
-        <a href="index.html"><img
-          class="🌮"
-          src="https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner.png?v=1651016729859"
-          alt="The Taco Stand"
+        <a href="index.html"
+          ><img
+            class="🌮"
+            src="https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner.png?v=1651016729859"
+            alt="The Taco Stand"
         /></a>
       </div>
     </header>
@@ -60,6 +61,54 @@
       </nav>
     </main>
     <footer>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/aboutmeicon?v=1651622943465" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/porticon?v=1651622942036" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img src="https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/moobyicon?v=1651622948936" style="width: 100%" />
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+          showSlides((slideIndex += n));
+        }
+
+        function currentSlide(n) {
+          showSlides((slideIndex = n));
+        }
+
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1;
+          }
+          if (n < 1) {
+            slideIndex = slides.length;
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
       <div class="🍗">
         <p class="copyright">
           Copyright ©
