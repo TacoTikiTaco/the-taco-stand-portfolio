@@ -64,19 +64,22 @@
   font-size: 9vw;
 }
 .🌮 {
-  transform: translateY(-10%);
+  transform: translateY(-100%);
   animation: floater 3s infinite;
   transition: ease 1s;
   width: auto;
   display: flex;
-  justify-content: space-around;
-  max-width: 40%;
+  width: 100vw;
+  justify-content: center;
+  min-width: 100px;
+  background-size: cover;
+  position: relative;
   
 }
 header {
   background-image: url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner%202.png?v=1652751620534");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 /*SUBHEADING*/
 .🍎 {
@@ -94,7 +97,6 @@ body {
   font-size: 20px;
   background-image: url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
   background-repeat: repeat;
-  background-attachment: cover;
 }
 p.copyright {
   display: flex;
