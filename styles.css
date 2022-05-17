@@ -60,19 +60,16 @@
   font-family: "Staatliches", cursive;
   font-size: 120px;
   margin-bottom: -60px;
-  margin-top: -20px;
+  margin-top: 10px;
   width: auto;
   font-size: 9vw;
 }
 .🌮 {
-  transform: translateY(000%);
   width: auto;
-  display: flex;
-  width: 100vw;
-  justify-content: center;
+
+  width: 45vw;
+
   min-width: 100px;
-  background-size: cover;
-  position: relative;
 }
 
 /*SUBHEADING*/
