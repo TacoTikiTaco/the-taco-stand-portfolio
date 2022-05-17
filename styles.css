@@ -104,7 +104,8 @@ p.copyright {
   position: relative;
   margin: auto;
 }
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -127,13 +128,30 @@ p.copyright {
   animation-duration: 1.5s;
 }
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
 }
 /*GALLERY*/
+/*ABOUT*/
+.🐔 {
+  width: 40vw;
+  height: 40vw;
+  position: relative;
+  top: 100px;
+  margin-bottom: 125px;
+  margin: -50px 30px 20px;
+}
 /*MENU*/
 .🍐 {
   width: 30vw;
