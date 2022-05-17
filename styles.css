@@ -60,6 +60,7 @@
   font-family: "Staatliches", cursive;
   font-size: 120px;
   margin-bottom: -60px;
+  margin-top: -60px;
   width: auto;
   font-size: 9vw;
 }
@@ -72,7 +73,6 @@
   min-width: 100px;
   background-size: cover;
   position: relative;
-  
 }
 
 /*SUBHEADING*/
@@ -89,9 +89,11 @@ body {
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
-  background-image: url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner.png?v=1651016729859),url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner%202.png?v=1652751620534"), url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
+  background-image: url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner.png?v=1651016729859),
+    url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner%202.png?v=1652756714275),
+    url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
   background-repeat: no-repeat, no-repeat, repeat;
-    background-size: 50vw, contain, 420px;
+  background-size: 50vw, contain, 420px;
 }
 p.copyright {
   display: flex;
