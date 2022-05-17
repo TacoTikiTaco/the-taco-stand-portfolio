@@ -93,13 +93,11 @@ body {
 }
 .🍊
 {  color: gold;
-  display: flex;
   justify-content: center;
-  margin-bottom: -600px;
-  margin-top: 10px;
   width: 400px;
-  font-size: 2vw;
-  transform:translateX(50px)}
+  font-size: 20px;
+  translate: 25%;
+  text-align: center}
 
 p.copyright {
   display: flex;
@@ -155,13 +153,16 @@ p.copyright {
 /*GALLERY*/
 /*ABOUT*/
 .🐔 {
-  width: 50%;
-  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  height: 45%;
+  background-size: cover;
+  left: 25%;
   position: relative;
   top: 100px;
   margin-bottom: 125px;
-  margin: -50px 30px 20px;
-  float: left; 
+  margin-top: -90px; 
 }
 /*MENU*/
 .🍐 {
