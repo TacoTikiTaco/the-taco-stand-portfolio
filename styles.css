@@ -84,7 +84,7 @@
 body {
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
-  font-size: 20px;
+  font-size: 2vw;
   background-image: url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner.png?v=1651016729859),
     url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner%202.png?v=1652757155880),
     url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
@@ -95,11 +95,11 @@ body {
 {  color: gold;
   display: flex;
   justify-content: center;
-  font-size: 120px;
-  margin-bottom: -60px;
+  margin-bottom: -600px;
   margin-top: 10px;
   width: 400px;
-  font-size: 2vw;}
+  font-size: 2vw;
+  transform:translateX(50px)}
 
 p.copyright {
   display: flex;
@@ -155,13 +155,13 @@ p.copyright {
 /*GALLERY*/
 /*ABOUT*/
 .🐔 {
-  width: 40vw;
-  height: 40vw;
+  width: 50%;
+  height: 50%;
   position: relative;
   top: 100px;
   margin-bottom: 125px;
   margin: -50px 30px 20px;
-  
+  float: left; 
 }
 /*MENU*/
 .🍐 {
