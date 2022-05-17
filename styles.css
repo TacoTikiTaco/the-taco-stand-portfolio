@@ -1,55 +1,283 @@
-media queires
-menu page
-home page
-about page
-global
-navegaton
+/*EFFECTS*/
+.🌀:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+.🌑 {
+  z-index: 2;
+}
+.🌕 {
+  z-index: 1;
+  opacity: 0;
+  transform: translate(0px, 65px);
+}
+.🌑:hover ~ .🌕 {
+  opacity: 1;
+}
 
 /*HEADING*/
 .🍏 {
   color: gold;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   font-family: "Staatliches", cursive;
   font-size: 120px;
   margin-bottom: -60px;
+  margin-top: 10px;
+  width: auto;
+  font-size: 9vw;
 }
+.🌮 {
+  width: auto;
+  opacity: 0%;
+  width: 45vw;
+  transform: translateX(-8px) translateY(-8px);
+}
+
 /*SUBHEADING*/
 .🍎 {
   color: gold;
   display: flex;
   justify-content: space-around;
-  font-family: "Staatliches", cursive;
-  font-size: 40px;
-  margin-bottom: 40px;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 3.5vw;
+  margin: 60px 0px 0px;
 }
 /*BODY*/
 body {
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
-  font-size: 20px;
-  background-image: url('https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410');
-  background-repeat: repeat;
-  background-attachment: fixed;
+  font-size: 2vw;
+  background-image: url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner.png?v=1651016729859),
+    url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner%202.png?v=1652757155880),
+    url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-size: 45vw, contain, 420px;
 }
+.🍊 {
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+  margin: 60px 0px 80px;
+}
+
 p.copyright {
   display: flex;
+  font-size: 1vw;
   justify-content: space-around;
   font-style: italic;
 }
-/*GALLERY*/
-/*MENU*/
-.GeneratedMarquee {
-color:#996600;
+/*MINI GALLERY*/
+.slideshow-container {
+  max-width: 200px;
+  width: 30vw;
+  position: relative;
+  margin: auto;
 }
-.🍐 {
-  justify-content: space-around;
-  max-width:10%;
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
   width: auto;
+  padding: 0px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+/*GALLERY*/
+#gallery {
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap: 15px;
+  -moz-column-count: 5;
+  -moz-column-gap: 15px;
+  column-count: 5;
+  column-gap: 15px;
+}
+#gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+#gallery img:hover {
+  filter: none;
+}
+#gallery video {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+#gallery video:hover {
+  filter: none;
+}
+@media (max-width: 1200px) {
+  #gallery {
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-count: 4;
+  }
+}
+@media (max-width: 1000px) {
+  #gallery {
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+}
+@media (max-width: 800px) {
+  #gallery {
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+  }
+}
+@media (max-width: 400px) {
+  #gallery {
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    column-count: 1;
+  }
+}
+/*ABOUT*/
+.🐔 {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  height: 45%;
   background-size: cover;
-  left: 40%;
+  left: 25%;
   position: relative;
   top: 100px;
   margin-bottom: 125px;
+  margin-top: -90px;
+}
+/*MENU*/
+.🍐 {
+  width: 30vw;
+  justify-content: center;
+  max-width: 150px;
+  background-size: cover;
+  position: relative;
+  top: 100px;
+  margin-bottom: 125px;
+  margin: -50px 20px 20px;
+}
+.🔍 {
+  color: gold;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 2.5vw;
+  margin: 15px 0px 0px;
+}
+html,body        {height: 100%;}
+.wrapper         {width: 80%; max-width: 600px; height: 100%; margin: 0 auto; background: #CCCCCC}
+.h_iframe        {position: relative; padding-top: 56%;}
+.h_iframe iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+/*FOOTER*/
+.GeneratedMarquee {
+  color: #996600;
+}
+.🍗 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+/*ICON FUNCTION N WHAT NOT*/
+.icon {
+  width: 40px;
+  transition-duration: 0.4s;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin: 5px 20px;
+}
+.prezz {
+  border: yellow;
+}
+.prezz:hover {
+  filter: hue-rotate(300deg);
 }
 /*LINKS*/
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*media queires
+menu page
+home page
+about page
+global
+navegaton*/
