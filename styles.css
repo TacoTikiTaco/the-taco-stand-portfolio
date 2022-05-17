@@ -64,9 +64,7 @@
   font-size: 9vw;
 }
 .🌮 {
-  transform: translateY(-100%);
-  animation: floater 3s infinite;
-  transition: ease 1s;
+  transform: translateY(-1000%);
   width: auto;
   display: flex;
   width: 100vw;
@@ -76,11 +74,7 @@
   position: relative;
   
 }
-header {
-  background-image: url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner%202.png?v=1652751620534");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+
 /*SUBHEADING*/
 .🍎 {
   color: gold;
@@ -95,8 +89,9 @@ body {
   color: gold;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 20px;
-  background-image: url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
-  background-repeat: repeat;
+  background-image: url(https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner.png?v=1651016729859),url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Name%20Banner%202.png?v=1652751620534"), url("https://cdn.glitch.global/7991a611-6cc7-4f4e-9079-fe77ce4bc020/Web%20Design%20Background%20%5BB1%5D.png?v=1651010843410");
+  background-repeat: no-repeat, no-repeat, repeat;
+    background-size: 50vw, contain, 420px;
 }
 p.copyright {
   display: flex;
