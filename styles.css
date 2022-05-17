@@ -106,7 +106,7 @@ p.copyright {
 }
 /*MINI GALLERY*/
 .slideshow-container {
-  max-width: 200px;
+  max-width: 150px;
   width: 30vw;
   position: relative;
   margin: auto;
@@ -207,6 +207,121 @@ p.copyright {
     column-count: 1;
   }
 }
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 /*ABOUT*/
 .🐔 {
   display: flex;
@@ -239,7 +354,7 @@ p.copyright {
   font-size: 2.5vw;
   margin: 15px 0px 0px;
 }
-
+/*FOOTER*/
 .GeneratedMarquee {
   color: #996600;
 }
@@ -249,54 +364,6 @@ p.copyright {
   bottom: 0;
   width: 100%;
   text-align: center;
-}
-/*BUTTON HOVER CODE*/
-.buttonfunc {
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 35px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  display: flex;
-  justify-content: space-around;
-  font-family: "Staatliches", cursive;
-  font-size: 40px;
-  margin-bottom: 40px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border-radius: 10px;
-}
-.press {
-  background-color: yellow;
-  color: #33004a;
-  border: 2px solid yellow;
-}
-.press:hover {
-  background-color: orange;
-  color: #33004a;
-  border: 2px solid orange;
-}
-/*ICON FUNCTION N WHAT NOT*/
-.icon {
-    display: flex;
-  justify-content: space-around;
-  width: 45%;
-  height: 45%;
-  background-size: cover;
-  left: 25%;
-  position: relative;
-  top: 50px;
-  margin-bottom: 125px;
-  margin-top: -90px;
-  
-}
-.prezz {
-  border: yellow;
-}
-.prezz:hover {
-  filter: hue-rotate(300deg);
 }
 /*LINKS*/
 nav {
